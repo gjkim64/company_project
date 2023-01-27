@@ -1,0 +1,221 @@
+gjkim@korea.ac.kr
+can you use deep neural network with explainable boosting machine?
+Yes, it is possible to use a deep neural network with an explainable boosting machine (EBM). An EBM is a type of machine learning model that combines the strengths of both decision trees and gradient boosting. By incorporating a deep neural network as one of the base models in the EBM ensemble, it may be able to capture more complex, non-linear relationships in the data and improve the overall performance of the EBM. However, it should be noted that the EBM's explainability may be affected by the incorporation of the deep neural network.
+
+
+
+
+gjkim@korea.ac.kr
+how will EBM's explainability be affected by the incorporation of the deep neural network?
+The explainability of an EBM may be affected by the incorporation of a deep neural network because deep neural networks are generally considered to be less interpretable than other types of machine learning models, such as decision trees or linear models.
+
+One of the main advantages of an EBM is that it allows for the interpretation of the model's decisions by examining the individual decision trees that make up the ensemble. However, if a deep neural network is included as one of the base models in the ensemble, it will likely be difficult to understand the specific input-output relationships that it is learning, as neural networks are generally considered to be a "black box" model. This may make it challenging to understand how the deep neural network is contributing to the overall predictions of the EBM, which can be a drawback for certain use cases where interpretability is important.
+
+Additionally, it is worth mentioning that some variants of DNNs, like explainable DNNs (eDNNs) exist, which incorporate interpretability techniques, to some extent, and try to make DNNs more interpretable, but they are not as popular as their traditional counterparts and their interpretability is still limited.
+
+
+
+
+gjkim@korea.ac.kr
+what is modality dominance?
+Modality dominance refers to the relative importance of different input modalities (or types of data) in a machine learning system. For example, an image classification system that relies heavily on the pixel values of the image to make predictions would be considered to have "image modality dominance", whereas a system that makes use of both image and text data would be considered to have "dual modality dominance".
+
+Modality dominance can be important to consider when designing a machine learning system, as it can affect the system's performance and interpretability. For example, if a system has "image modality dominance" but the image data is noisy or of low quality, the system's performance may be negatively affected. Additionally, if the system has "dual modality dominance" it may be difficult to understand which modality is contributing the most to the system's predictions, making it harder to interpret and debug the system.
+
+Furthermore, in multimodal machine learning, the fusion of different modalities is also important and various techniques have been proposed to combine the information from different modalities such as early, late, and hybrid fusion.
+
+
+
+
+gjkim@korea.ac.kr
+is visual modality more dominant than vestibular?
+The visual modality is often considered to be more dominant than the vestibular modality in many situations. The visual modality, which includes information from the eyes, is the primary way that humans and many animals navigate and interpret the world around them. It provides rich information about the spatial layout, color, and texture of objects, and is typically more reliable and precise than other modalities.
+
+On the other hand, the vestibular modality, which includes information from the inner ear, provides information about balance and spatial orientation, but it is less precise and less rich than visual information. It is generally considered to be a complementary modality to vision, rather than a dominant one.
+
+However, it is worth noting that the dominance of a modality can depend on the specific task and the environment. For example, in certain situations such as low light or in environments with low visibility, the visual modality may be less dominant and the vestibular modality may play a more important role in navigation and perception. Additionally, some species like bats, rely heavily on the echolocation modality, that uses the vestibular system to "see" their environment.
+
+
+
+
+gjkim@korea.ac.kr
+why does VR sickness occur even if visual modality is more dominant than the vestibular?
+Virtual reality (VR) sickness, also known as cybersickness or simulator sickness, occurs when the visual information presented in a VR environment conflicts with the vestibular and proprioceptive information coming from the inner ear and body. Even though the visual modality is generally considered to be more dominant than the vestibular modality, when the two modalities provide conflicting information, the brain can become confused and this can lead to feelings of nausea, dizziness, and disorientation.
+
+One of the main causes of VR sickness is a phenomenon known as "vection," which is the perception of self-motion in the absence of actual physical motion. In a VR environment, the brain receives visual cues that suggest that the person is moving, but the vestibular system does not receive corresponding signals of motion, leading to a mismatch between the visual and vestibular information and causing feelings of sickness.
+
+Other factors that can contribute to VR sickness include high levels of visual complexity, high frame rates, and poor latency. Additionally, some people may be more susceptible to VR sickness than others, due to their individual physiology or previous experiences with motion sickness.
+
+In general, to minimize the chances of VR sickness, the VR environments should be designed to minimize visual-vestibular conflicts, and the VR systems should be designed to minimize latency, reduce visual complexity and use high frame rates.
+
+
+
+
+gjkim@korea.ac.kr
+is there a relationship between modality dominance and VR presence?
+There is a relationship between modality dominance and VR presence, as modality dominance refers to the relative importance of different input modalities in a machine learning system, and VR presence refers to the feeling of being physically present in a virtual environment.
+
+A VR system that relies heavily on the visual modality, such as providing high-resolution graphics and realistic lighting, is likely to create a stronger sense of presence in the virtual environment. The more dominant the visual modality, the more realistic the virtual environment will appear, which in turn can increase the sense of presence.
+
+On the other hand, if a VR system relies heavily on other modalities such as sound, haptics, and proprioception, it can also increase the sense of presence by providing additional cues to the brain that help it to understand the virtual environment. However, if the VR system relies too much on other modalities and neglects the visual modality, the virtual environment may appear less realistic and the sense of presence may be diminished.
+
+It is worth noting that the relationship between modality dominance and VR presence is not a linear one, and it can be complex, as the presence depends on many factors such as the quality of the VR system, the user's physiology, and the design of the virtual environment itself. Additionally, the modality dominance can change depending on the task, for example, in a VR environment for sound localization, the auditory modality will be more dominant than the visual modality.
+
+
+
+
+gjkim@korea.ac.kr
+can modality inconsistencies cause or worsen VR sickness
+Yes, modality inconsistencies can cause or worsen VR sickness. As I mentioned earlier, VR sickness is caused by a mismatch between the visual and vestibular information, and modality inconsistencies can contribute to this mismatch.
+
+For example, if the VR system is designed to provide high-resolution graphics and realistic lighting, but neglects other modalities such as sound or haptics, it can create a mismatch between the visual and other modalities. This can cause confusion for the brain, which can lead to feelings of nausea, dizziness, and disorientation.
+
+Additionally, if the VR system provides inconsistent cues across modalities, it can also worsen VR sickness. For example, if the virtual environment shows movement but the haptic feedback does not match it, the brain may become confused, leading to VR sickness.
+
+Furthermore, if the VR system has high latency or low frame rates, it can also cause VR sickness, as it can make the virtual environment appear less responsive and less realistic, leading to a mismatch between the visual and vestibular information, which can also lead to feelings of nausea and dizziness.
+
+To minimize the chances of VR sickness, it's important to design the VR systems to minimize modality inconsistencies and to provide consistent cues across all modalities to ensure that the brain receives a coherent and realistic representation of the virtual environment.
+
+
+is the relationship between the visual and vestibular modalities different from the others?
+The relationship between the visual and vestibular modalities is considered to be a particularly important and complex one. The visual modality, which provides information about the spatial layout, color, and texture of objects, is the primary way that humans and many animals navigate and interpret the world around them. On the other hand, the vestibular modality, which provides information about balance and spatial orientation, is generally considered to be a complementary modality to vision.
+
+The visual and vestibular modalities are closely linked in the brain, as they both provide information about the spatial layout of the environment, and the brain uses this information to understand and navigate the world. When the visual and vestibular modalities provide consistent information, the brain can create a coherent and stable perception of the environment. However, when the visual and vestibular modalities provide conflicting information, the brain can become confused, leading to feelings of nausea, dizziness, and disorientation.
+
+The relationship between the visual and vestibular modalities is considered to be particularly important in the context of VR, as a mismatch between the visual and vestibular information can cause VR sickness.
+
+In general, the relationship between modalities may vary depending on the modalities and the task. For example, the relationship between the auditory and visual modalities is considered to be important in sound localization, and between the haptic and visual modalities in grasping or manipulation tasks. However, the visual-vestibular relationship is considered to be a fundamental one in spatial perception, and it is particularly relevant in VR systems.
+
+
+does sensory mismatch always accompany unpleasant symptoms?
+Sensory mismatch can sometimes be accompanied by unpleasant symptoms, but not always. It can depend on the specific type of mismatch and the individual's reaction to it. For example, some people may experience sensory mismatch in a stimulating environment, such as a loud party, and feel overwhelmed and anxious. Others may find the same environment exciting and enjoyable.
+
+
+
+
+gjkim@korea.ac.kr
+can we get sensory dominance by multimodality?
+Sensory dominance refers to the idea that certain sensory inputs have a stronger influence on our perception and behavior than others. In multimodality, multiple sensory inputs are presented at the same time. However, it is not clear if multimodality can lead to sensory dominance as the way it affects to the perception depends on the context, individual's experience, and the specific nature of the multiple modalities. Some studies have shown that providing multiple sensory cues can improve perception and performance in certain tasks, while others have found that it can lead to confusion and decreased performance.
+
+It is important to note that the concept of sensory dominance is not well-established in scientific research and more studies are needed to understand how multimodality affects our perception.
+
+
+
+The more one modality is dominant, will there be larger sensory mismatch?
+
+The relationship between sensory dominance and sensory mismatch is not well understood. Some theories suggest that if one modality is dominant, it may lead to a larger sensory mismatch when other modalities do not match the dominant one. For example, if a person is primarily visually oriented, they may experience a larger sensory mismatch when visual and auditory information do not match. However, this is not a well-established idea and more research is needed to understand the relationship between sensory dominance and mismatch.
+
+Additionally, it is important to note that sensory mismatch can occur within a single modality as well. For example, a visual illusion can create a mismatch between what is perceived and what is actually present. So, the concept of dominance may not be always necessary to explain the sensory mismatch.
+
+
+
+can sensory mismatch be reduced by supporting one modality with other consistent modality information?
+
+It is possible that providing consistent information across multiple modalities may reduce sensory mismatch. This is known as cross-modal integration, which refers to the process by which our brain combines information from different modalities to create a coherent perception.
+
+Research has shown that cross-modal integration can help to improve perception and performance in certain tasks. For example, providing consistent visual and auditory information can help people to better locate the source of a sound, or providing consistent visual and tactile information can help people to better locate objects in the dark.
+
+Additionally, providing consistent information across multiple modalities can also help to reduce confusion and improve the ability to distinguish between similar stimuli. However, it is worth noting that the effectiveness of cross-modal integration can vary depending on the context, individual's experience and the specific nature of the modalities.
+
+In summary, providing consistent information across multiple modalities may help to reduce sensory mismatch and improve perception, but more research is needed to understand the complex mechanisms underlying cross-modal integration.
+
+
+
+what is the relationship between cross modal integration and sensory mismatch symptoms
+Cross-modal integration refers to the process by which our brain combines information from different modalities to create a coherent perception, while sensory mismatch refers to a discrepancy between expected and actual sensory input. The relationship between cross-modal integration and sensory mismatch symptoms can be complex and can vary depending on the specific context and the individual's experience.
+
+In general, it is thought that good cross-modal integration can help to reduce sensory mismatch symptoms by providing consistent information across multiple modalities, which can help to improve perception and performance in certain tasks. For example, providing consistent visual and auditory information can help people to better locate the source of a sound, which can reduce confusion and improve the ability to distinguish between similar stimuli.
+
+On the other hand, poor cross-modal integration can lead to sensory mismatch symptoms by providing conflicting or inconsistent information across modalities, which can create confusion and lead to decreased performance. For example, if visual and auditory information do not match, it can lead to confusion and difficulty in identifying the source of the sound.
+
+It's worth noting that some studies have shown that some people might have a better cross-modal integration than others, so it may vary from person to person. Also, certain disorders or conditions, such as autism, schizophrenia, or sensory processing disorder, may be associated with difficulties in cross-modal integration and increased sensory mismatch symptoms.
+
+In summary, cross-modal integration plays an important role in how we perceive the world around us, and good cross-modal integration can help to reduce sensory mismatch symptoms, but poor cross-modal integration can lead to increased sensory mismatch symptoms.
+
+
+is vestibular occular reflex a kind of cross modal integration?
+The vestibular-ocular reflex (VOR) is a reflex that helps to stabilize images on the retina during head movements. It is considered a kind of cross-modal integration because it involves the integration of information from two different modalities: the vestibular system (which senses head movement) and the visual system (which processes visual information).
+
+The VOR is responsible for compensating for head movements by rapidly and automatically adjusting the eyes' position to keep the visual field stable on the retina. This reflex allows us to maintain clear vision during head movements, such as when walking, running, or turning the head.
+
+In summary, VOR is a reflex that helps to stabilize images on the retina during head movements, it's considered a kind of cross-modal integration since it involves the integration of information from the vestibular and visual systems. It plays a crucial role in maintaining clear vision during head movements.
+
+does vestibular occular reflext related to cyber sickness?
+Vestibular-ocular reflex (VOR) is a reflex that helps stabilize images on the retina during head movements, and it is not directly related to cybersickness. Cybersickness, also known as virtual reality sickness or simulator sickness, is a condition that can occur when using virtual reality (VR) or other types of simulated environments. It is characterized by symptoms such as nausea, dizziness, and disorientation.
+
+However, the VOR plays an important role in maintaining clear vision during head movements, which is crucial for the perception of spatial orientation in virtual environments. If the VOR does not function properly, it can result in visual instability, which can contribute to symptoms of cybersickness.
+
+Additionally, some studies suggest that the mismatch between the visual and vestibular information can lead to cybersickness symptoms, which can be caused by the lack of correspondence between the visual and vestibular signals in virtual environments.
+
+In summary, while VOR is not directly related to cybersickness, it plays an important role in maintaining clear vision during head movements, which can be crucial for the perception of spatial orientation in virtual environments. Additionally, mismatch between the visual and vestibular information can lead to cybersickness symptoms.
+
+
+when can cross modal integration produce unpleasant symptoms?
+
+Cross-modal integration can produce unpleasant symptoms when the information from different modalities is inconsistent, conflicting, or mismatched. This can happen when the brain receives conflicting or mismatched information from different senses, leading to a state of confusion or uncertainty.
+
+One example of this is the phenomenon of sensory mismatch, in which the brain receives conflicting or mismatched information from different senses, leading to a state of confusion or uncertainty. This can result in symptoms such as dizziness, nausea, and disorientation. This can happen when the visual and vestibular system provide conflicting information in virtual environments, leading to cybersickness.
+
+Another example is the phenomenon of multisensory illusions, in which the brain is tricked into perceiving something that is not actually present. This can happen when the brain receives conflicting or mismatched information from different senses, leading to a state of confusion or uncertainty.
+
+In summary, cross-modal integration can produce unpleasant symptoms when the information from different modalities is inconsistent, conflicting, or mismatched. This can happen when the brain receives conflicting or mismatched information from different senses, leading to a state of confusion or uncertainty. Examples of this are sensory mismatch and multisensory illusions.
+
+
+
+
+why does not strengthening visual motion dominate vestibular?
+ actually it probably dominates and that is why we do feel
+ apparent motion 
+ but the mismatch is still there and it widens 
+ because difference between visual and vestibular becomes 
+ bigger
+  
+  is this really right? 
+  more visual field/optical flow provides more visual infro
+  but at the end it is still info about one thing ! ???
+  
+  so how does dyn FOV work then?
+
+  possibility that small fov large fov has different
+  sensual info but same conclusive info
+
+
+ask 조철현, psychology professor, 허지원
+
+can we modulate auditory dominant task by helping the 
+ losing visual with other modalities or
+ strengthening visual (even though like in FOV, it might
+  not have much effect?)
+
+you can have dominance but mismatch is still thereof 
+ they may be two different thing
+
+ dominance is sensual but mismatch may be between the
+  conclusive output 
+
+  but then Dyn FOV is difficult to explain by this 
+
+
+Dominance may be modulated by voluntary attention 
+ there may be other ways to modulate 
+
+ amount of info
+ # of modality (similar to voting?)
+  similar to bagging boosting?
+ task relevance?
+  visual vestibular spatial
+  audio temporal  
+
+
+V        vest   mismatch    v dominance
+low fov   stay    low?       low? or none?
+high fov  stay    high?      high?
+
+low fov + S  stay   ?     dominance is medium
+high fov + S stay   ?     very high?
+
+
+가지수 + amount 같이 올리면 가장 dominant 하게 만듦?
+ one may not be relevant ? 
+ not known yet?
+

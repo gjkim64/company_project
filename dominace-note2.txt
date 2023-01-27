@@ -1,0 +1,71 @@
+Is WIP a voluntary action or not?
+
+ voluntary in the sense that it gives proprioception so the interaction is not passive
+ but still not able to encode expected direction or place ?
+
+ remember expected matching is needed to inhibit the vestibular info*
+
+Sickness - Imbalance 
+
+ Vest - Proprioceptive fusion 과 관련?
+
+ Head 고정 하고 WIP 하면 Sickness 나야 겠지?  그렇게 알려져 있는듯
+
+
+Strength of visual or vestibular sense
+ Tuning 정도 
+ Will turning increase if more features? (sparse flow vs. dense flow ... they have 
+  same info at the end of the day?)
+ 
+Congruence extent between the two
+ overlap between tuning of visual and vestibular to certain direciton/info
+
+still number of neuron wise visual is stronger generally
+
+
+is really the large FOV have stronger visual 
+
+ can there be other reason of why large FOV cause more sickness or vection or sensory mismatch?
+ more tuned?
+ less congruency?
+
+Visual and Vestiular can be fused even if different
+--> by one of reference
+--> 정도의 차이 인듯 차이 너무 크면 fusion 도 안되고 머리만 아프다 ...?
+
+Still it gives evidence of how rev flow might work
+ it increases the congruency 
+ the strength of visual is weakened -- tuning is weakened
+
+
+different modality fighting for limited attention resource ...
+ but then visual dominance 는 어떻게?
+ does each modality have some minimum alloted contribution?
+
+ depends on task
+ visual - spatial task
+ vestibular - spatial
+ audio - temporal / alert
+
+MIsmatch does not necessitate symptom
+
+ SO WIP with head fixed may not give symptom
+
+ proprio --->   
+         |---->  two fused and give  body motion 
+         |  
+ Vest    --->  head motion
+
+In WIP get body motion and head motion 
+but in WIP without head motion, get only body motion 
+ 
+threshold for vestibular sensitivity is not high to support daily usual activity
+ someone else must help out ... proprio, vision, ...
+
+
+
+ 
+
+
+ 
+
